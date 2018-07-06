@@ -1,0 +1,49 @@
+
+/* Jumbotron formatting */
+
+.jumbotron {
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
+
+.banner {
+    margin-top: 2em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: grey;
+}
+
+.progressjt {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 0px;
+    margin-bottom: 0;
+    background-color:lightgrey;
+}
+
+.question {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: lightcyan;
+    text-align: center;
+    min-height: 15em;
+}
+
+.progressbdiv {
+    width: 85%;
+}
+
+.answer {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    min-width: 30%;
+    text-align: center;
+    align-items: center;
+}
+
