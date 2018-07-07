@@ -18,34 +18,59 @@
         </div>
         <div class="jumbotron progressjt" id="progress-jt">
             <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                    <span id="seconds">30</span>
+                <div class="progress-bar bg-info" id="progbar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                 </div>
             </div>
         </div>
         <div class="jumbotron question" id="question-jt">
-            <h1>
-                <span class="fadeClass" id="question-span"></span>
-            </h1>
-            <div class="row" id="start-button-row">
-                <div class="col-md-12">
-                    <button class="btn btn-primary" id="start-button">Start!</button>
+            <div class="container" id="gameStart">
+                <div class="row" id="start-button-row">
+                    <div class="col-md-12">
+                        <button class="btn btn-info" id="start-button">Start!</button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <button class="btn btn-primary answer fadeClass" id="answer-one"></button>
+            <div class="container fadeClass" id="gameQuestion">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            <span id="question-span"></span>
+                        </h1>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <button class="btn btn-primary answer fadeClass" id="answer-two"></button>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button class="btn btn-info answer" id="answer-one"></button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-info answer" id="answer-two"></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button class="btn btn-info answer" id="answer-three"></button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-info answer" id="answer-four"></button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <button class="btn btn-primary answer fadeClass" id="answer-three"></button>
+            <div class="container fadeClass" id="gameDisposition">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            <span id="disposition-span"></span>
+                        </h1>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <button class="btn btn-primary answer fadeClass" id="answer-four"></button>
+            </div>
+            <div class="container fadeClass" id="gameEnd">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            <span id="gameover-span"></span>
+                        </h1>
+                    </div>
                 </div>
             </div>
         </div>

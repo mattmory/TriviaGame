@@ -2,7 +2,8 @@
 /* Jumbotron formatting */
 
 .jumbotron {
-    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
     margin: 0 auto 0 auto;
 }
 
